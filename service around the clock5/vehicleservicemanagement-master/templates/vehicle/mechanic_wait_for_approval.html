@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load widget_tweaks %}
+
+  <body style="color:#FF0099;">
+<center>
+    {% include "vehicle/navbar.html" %}
+<br><br><br>
+        <h2>Hello {{request.user.first_name}}</h2>
+        <h3>Your Account is not approved till now <br><br>Admin is checking your profile <br><br> Soon you will be hired to our Agency</h4><br>
+
+        <h3>
+          <a class="btn btn-primary btn-lg" href="/logout" role="button">Logout For Now</a>
+        </h3>
+      </div>
+</center>
+
+
+  </body>
+</html>
